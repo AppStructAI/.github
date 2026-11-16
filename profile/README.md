@@ -25,7 +25,7 @@ For self-hosted n8n 2.47.7+ with Node.js 24+. Start with the included inactive, 
 
 The [AppStruct Social plugin for Cursor and Claude Code](https://github.com/VladimirTambovtsev/appstruct-social-cursor-plugin) connects a compatible MCP client to Social and includes a draft-review workflow. Start with a key scoped to the intended workspace and the permissions your task needs.
 
-MCP can save unscheduled drafts for review; it cannot schedule or publish posts. Review the channel, text and attachments in AppStruct Social before making a publishing decision. [Read the setup and first-draft guide](https://blog.appstruct.ai/blog/social-media-mcp-server?utm_source=github_org&utm_medium=referral&utm_campaign=github_profile_20261117&utm_content=social_guide).
+MCP can save unscheduled drafts for review; it cannot schedule or publish posts. Review the channel, text and attachments in AppStruct Social before making a publishing decision. [Explore AppStruct Social](https://appstruct.ai/social?utm_source=github_org&utm_medium=referral&utm_campaign=github_profile_20261117&utm_content=social) · [Setup and first-draft guide](https://blog.appstruct.ai/blog/social-media-mcp-server).
 
 ## Try one small app flow
 
