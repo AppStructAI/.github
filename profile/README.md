@@ -27,6 +27,12 @@ The [AppStruct Social plugin for Cursor and Claude Code](https://github.com/Vlad
 
 MCP can save unscheduled drafts for review; it cannot schedule or publish posts. Review the channel, text and attachments in AppStruct Social before making a publishing decision. [Explore AppStruct Social](https://appstruct.ai/social?utm_source=github_org&utm_medium=referral&utm_campaign=github_profile_20261117&utm_content=social) · [Setup and first-draft guide](https://blog.appstruct.ai/blog/social-media-mcp-server).
 
+### AppStruct Docs plugin
+
+The [AppStruct Docs plugin for Claude Code](https://github.com/AppStructAI/appstruct-docs-claude-plugin) connects to documents you own and includes a manually invoked meeting-brief workflow. Start with a Docs key scoped to `docs:read`; the workflow drafts in the conversation and does not create or edit documents.
+
+[Install and try the fictional meeting-notes exercise](https://blog.appstruct.ai/blog/docs-mcp-meeting-notes-to-project-brief?utm_source=github_org&utm_medium=referral&utm_campaign=docs_claude_code_20261120&utm_content=org_docs_01#use-the-optional-meeting-brief-plugin). Review the source reference, decisions, action IDs and open questions before saving a separate brief.
+
 ## Try one small app flow
 
 [Build a service-request pilot](https://appstruct.ai/guides/build-service-request-app?utm_source=github_org&utm_medium=referral&utm_campaign=github_profile_20261117&utm_content=request_pilot): create a form, save fictional requests, reopen the selected record and check a status update at the published app URL. The walkthrough is a teaching example, not a customer case study.
