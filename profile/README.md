@@ -33,6 +33,12 @@ The [AppStruct Docs plugin for Claude Code](https://github.com/AppStructAI/appst
 
 [Install and try the fictional meeting-notes exercise](https://blog.appstruct.ai/blog/docs-mcp-meeting-notes-to-project-brief?utm_source=github_org&utm_medium=referral&utm_campaign=docs_claude_code_20261120&utm_content=org_docs_01#use-the-optional-meeting-brief-plugin). Review the source reference, decisions, action IDs and open questions before saving a separate brief.
 
+## Practice a database update without an account
+
+The [database practice kit](https://github.com/AppStructAI/database-practice-kit) compares a customer-name filter, an exact saved-ID filter and an unmatched ID using two fictional requests. Run the Node.js fixture without packages or keys, then use its 16-case Supabase worksheet and three connection briefs to plan your own test.
+
+The local exercise does not connect to a database or verify a real app. Each worksheet result starts as Not checked. The repository links to the browser example and full AppStruct connection walkthrough.
+
 ## Try one small app flow
 
 [Build a service-request pilot](https://appstruct.ai/guides/build-service-request-app?utm_source=github_org&utm_medium=referral&utm_campaign=github_profile_20261117&utm_content=request_pilot): create a form, save fictional requests, reopen the selected record and check a status update at the published app URL. The walkthrough is a teaching example, not a customer case study.
