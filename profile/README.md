@@ -8,7 +8,7 @@ Build apps visually, and work with documents, spreadsheets, presentations and so
 | --- | --- |
 | Build a web or mobile app with a visual editor | [AppStruct App Builder](https://appstruct.ai/app-builder?utm_source=github_org&utm_medium=referral&utm_campaign=github_profile_20261117&utm_content=builder) |
 | Work with documents, spreadsheets, slides and social content | [AppStruct Workspace](https://appstruct.ai/workspace?utm_source=github_org&utm_medium=referral&utm_campaign=github_profile_20261117&utm_content=workspace) |
-| Connect App Builder projects and data to a self-hosted n8n workflow | [AppStruct + n8n setup](https://appstruct.ai/integrations/n8n?utm_source=github_org&utm_medium=referral&utm_campaign=github_profile_20261117&utm_content=n8n_setup) |
+| Connect App Builder projects and data to n8n Cloud or self-hosted n8n | [AppStruct + n8n setup](https://appstruct.ai/integrations/n8n?utm_source=github_org&utm_medium=referral&utm_campaign=github_profile_20261117&utm_content=n8n_setup#n8n-cloud) |
 | Connect an AI assistant to AppStruct through MCP | [MCP connection guides](https://appstruct.ai/integrations/mcp?utm_source=github_org&utm_medium=referral&utm_campaign=github_profile_20261117&utm_content=mcp_setup) |
 
 Creating apps and using workspace products require an AppStruct account and applicable plan access.
@@ -19,7 +19,11 @@ Creating apps and using workspace products require an AppStruct account and appl
 
 [`n8n-nodes-appstruct`](https://github.com/AppStructAI/n8n-nodes-appstruct) provides App Builder project, table and record operations, plus New Row and Updated Row polling triggers.
 
-For self-hosted n8n 2.47.7+ with Node.js 24+. Start with the included inactive, read-only project-list workflow, select your own credential, and compare a returned project ID and name with your AppStruct Apps library. Then test polling against fictional records before adding a destination. Installation and compatibility details are in the repository README.
+**Verified and live on n8n Cloud**, following n8n's November 23, 2026 release notice. The instance owner/admin installs the matching AppStruct result from the canvas node panel. Self-hosted node 2.x requires n8n 2.47.7+ with Node.js 24+.
+
+Start with the [free Cloud first-read kit](https://github.com/AppStructAI/n8n-nodes-appstruct/releases/download/v2.0.1/appstruct-n8n-cloud-first-read-kit-20261126.zip), updated November 26. Import its inactive project-list workflow, select your own credential, and compare a returned project ID and name with your AppStruct Apps library. The selected operation reads projects; the account credential itself is not restricted to reads. The kit also includes a separate inactive polling exercise and a 13-case acceptance log. No email is required to download it; connecting needs your own accounts and applicable access.
+
+[Cloud installation and first-read walkthrough](https://appstruct.ai/integrations/n8n?utm_source=github_org&utm_medium=referral&utm_campaign=n8n_cloud_20261125&utm_content=cloud_first_read_org_01#n8n-cloud). A public entry in n8n's website directory is a separate listing; its publication has not been confirmed.
 
 ### AppStruct Social plugin
 
