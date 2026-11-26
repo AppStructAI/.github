@@ -25,6 +25,8 @@ Start with the [free Cloud first-read kit](https://github.com/AppStructAI/n8n-no
 
 [Cloud installation and first-read walkthrough](https://appstruct.ai/integrations/n8n?utm_source=github_org&utm_medium=referral&utm_campaign=n8n_cloud_20261125&utm_content=cloud_first_read_org_01#n8n-cloud). A public entry in n8n's website directory is a separate listing; its publication has not been confirmed.
 
+After the first read, try the [connected service-request queue review](https://blog.appstruct.ai/blog/n8n-service-request-queue-audit?utm_source=github_org&utm_medium=referral&utm_campaign=queue_audit_20261120&utm_content=live_table_digest_org_01#connect-an-appstruct-table-and-prepare-an-exception-summary): map a practice table, inspect missing owners, overdue dates and duplicate IDs, then export a CSV. The [workflow JSON and setup notes](https://github.com/AppStructAI/n8n-nodes-appstruct/blob/main/examples/SERVICE_REQUEST_REVIEW.md) are in the maintained repository. The workflow is inactive, notifications are off and its schedule is disabled; optional email contains counts only. It is an example, not an approved n8n template.
+
 ### AppStruct Social plugin
 
 The [AppStruct Social plugin for Cursor and Claude Code](https://github.com/VladimirTambovtsev/appstruct-social-cursor-plugin) connects a compatible MCP client to Social and includes a draft-review workflow. Start with a key scoped to the intended workspace and the permissions your task needs.
